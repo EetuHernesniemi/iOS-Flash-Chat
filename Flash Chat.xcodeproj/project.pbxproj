@@ -21,6 +21,9 @@
 		3CB4C846278D73880088BCDD /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB4C845278D73880088BCDD /* RegisterViewController.swift */; };
 		3CB4C848278D739A0088BCDD /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB4C847278D739A0088BCDD /* LoginViewController.swift */; };
 		3CB4C84A278D73AA0088BCDD /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB4C849278D73AA0088BCDD /* ChatViewController.swift */; };
+		C5F81F551DEFF8996774F8A6 /* Pods_Flash_Chat_Flash_ChatUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B88F1356500A555303CD4978 /* Pods_Flash_Chat_Flash_ChatUITests.framework */; };
+		DA6B1EC4E682D049BEDD80BB /* Pods_Flash_Chat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF94EFF4D52D417332A90DBA /* Pods_Flash_Chat.framework */; };
+		EEC83D66DC1039DC1B265C2D /* Pods_Flash_ChatTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 669124502DC71E7D94DD6256 /* Pods_Flash_ChatTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +44,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2307D556A8FD85CEBDA83468 /* Pods-Flash Chat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flash Chat.release.xcconfig"; path = "Target Support Files/Pods-Flash Chat/Pods-Flash Chat.release.xcconfig"; sourceTree = "<group>"; };
+		39DBE7F69B463CF9DDF52B37 /* Pods-Flash ChatTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flash ChatTests.debug.xcconfig"; path = "Target Support Files/Pods-Flash ChatTests/Pods-Flash ChatTests.debug.xcconfig"; sourceTree = "<group>"; };
 		3CB4C80C278D6AE10088BCDD /* Flash Chat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Flash Chat.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CB4C80F278D6AE10088BCDD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3CB4C811278D6AE10088BCDD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +64,13 @@
 		3CB4C845278D73880088BCDD /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		3CB4C847278D739A0088BCDD /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		3CB4C849278D73AA0088BCDD /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		669124502DC71E7D94DD6256 /* Pods_Flash_ChatTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Flash_ChatTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B952817A29BA32C4EE5632A /* Pods-Flash Chat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flash Chat.debug.xcconfig"; path = "Target Support Files/Pods-Flash Chat/Pods-Flash Chat.debug.xcconfig"; sourceTree = "<group>"; };
+		9F0D2753E0C26FFB41CA0DD9 /* Pods-Flash ChatTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flash ChatTests.release.xcconfig"; path = "Target Support Files/Pods-Flash ChatTests/Pods-Flash ChatTests.release.xcconfig"; sourceTree = "<group>"; };
+		B88F1356500A555303CD4978 /* Pods_Flash_Chat_Flash_ChatUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Flash_Chat_Flash_ChatUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF94EFF4D52D417332A90DBA /* Pods_Flash_Chat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Flash_Chat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB0729ED507022B3106B5111 /* Pods-Flash Chat-Flash ChatUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flash Chat-Flash ChatUITests.release.xcconfig"; path = "Target Support Files/Pods-Flash Chat-Flash ChatUITests/Pods-Flash Chat-Flash ChatUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E42B054D1D89ADCCF679C65D /* Pods-Flash Chat-Flash ChatUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flash Chat-Flash ChatUITests.debug.xcconfig"; path = "Target Support Files/Pods-Flash Chat-Flash ChatUITests/Pods-Flash Chat-Flash ChatUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA6B1EC4E682D049BEDD80BB /* Pods_Flash_Chat.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEC83D66DC1039DC1B265C2D /* Pods_Flash_ChatTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,12 +94,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5F81F551DEFF8996774F8A6 /* Pods_Flash_Chat_Flash_ChatUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1D16940C29FBD511E8C6CF13 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF94EFF4D52D417332A90DBA /* Pods_Flash_Chat.framework */,
+				B88F1356500A555303CD4978 /* Pods_Flash_Chat_Flash_ChatUITests.framework */,
+				669124502DC71E7D94DD6256 /* Pods_Flash_ChatTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		25D13D28A63B0ADF07B0273D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8B952817A29BA32C4EE5632A /* Pods-Flash Chat.debug.xcconfig */,
+				2307D556A8FD85CEBDA83468 /* Pods-Flash Chat.release.xcconfig */,
+				E42B054D1D89ADCCF679C65D /* Pods-Flash Chat-Flash ChatUITests.debug.xcconfig */,
+				DB0729ED507022B3106B5111 /* Pods-Flash Chat-Flash ChatUITests.release.xcconfig */,
+				39DBE7F69B463CF9DDF52B37 /* Pods-Flash ChatTests.debug.xcconfig */,
+				9F0D2753E0C26FFB41CA0DD9 /* Pods-Flash ChatTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		3CB4C803278D6AE10088BCDD = {
 			isa = PBXGroup;
 			children = (
@@ -95,6 +133,8 @@
 				3CB4C825278D6AE30088BCDD /* Flash ChatTests */,
 				3CB4C82F278D6AE40088BCDD /* Flash ChatUITests */,
 				3CB4C80D278D6AE10088BCDD /* Products */,
+				25D13D28A63B0ADF07B0273D /* Pods */,
+				1D16940C29FBD511E8C6CF13 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -173,9 +213,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3CB4C836278D6AE40088BCDD /* Build configuration list for PBXNativeTarget "Flash Chat" */;
 			buildPhases = (
+				CF26C4E179E664E2CD630B4F /* [CP] Check Pods Manifest.lock */,
 				3CB4C808278D6AE10088BCDD /* Sources */,
 				3CB4C809278D6AE10088BCDD /* Frameworks */,
 				3CB4C80A278D6AE10088BCDD /* Resources */,
+				667FAC879855BE47290BF701 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -190,6 +232,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3CB4C839278D6AE40088BCDD /* Build configuration list for PBXNativeTarget "Flash ChatTests" */;
 			buildPhases = (
+				97F164DA3414B0E14ACDE49A /* [CP] Check Pods Manifest.lock */,
 				3CB4C81E278D6AE30088BCDD /* Sources */,
 				3CB4C81F278D6AE30088BCDD /* Frameworks */,
 				3CB4C820278D6AE30088BCDD /* Resources */,
@@ -208,9 +251,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3CB4C83C278D6AE40088BCDD /* Build configuration list for PBXNativeTarget "Flash ChatUITests" */;
 			buildPhases = (
+				3A931DACF465673104433E56 /* [CP] Check Pods Manifest.lock */,
 				3CB4C828278D6AE40088BCDD /* Sources */,
 				3CB4C829278D6AE40088BCDD /* Frameworks */,
 				3CB4C82A278D6AE40088BCDD /* Resources */,
+				F36CEE7C8115CA0679DE0F86 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -293,6 +338,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3A931DACF465673104433E56 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Flash Chat-Flash ChatUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		667FAC879855BE47290BF701 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Flash Chat/Pods-Flash Chat-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Flash Chat/Pods-Flash Chat-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Flash Chat/Pods-Flash Chat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		97F164DA3414B0E14ACDE49A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Flash ChatTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF26C4E179E664E2CD630B4F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Flash Chat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F36CEE7C8115CA0679DE0F86 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Flash Chat-Flash ChatUITests/Pods-Flash Chat-Flash ChatUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Flash Chat-Flash ChatUITests/Pods-Flash Chat-Flash ChatUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Flash Chat-Flash ChatUITests/Pods-Flash Chat-Flash ChatUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3CB4C808278D6AE10088BCDD /* Sources */ = {
@@ -478,6 +626,7 @@
 		};
 		3CB4C837278D6AE40088BCDD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B952817A29BA32C4EE5632A /* Pods-Flash Chat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -506,6 +655,7 @@
 		};
 		3CB4C838278D6AE40088BCDD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2307D556A8FD85CEBDA83468 /* Pods-Flash Chat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -519,6 +669,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -534,6 +685,7 @@
 		};
 		3CB4C83A278D6AE40088BCDD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39DBE7F69B463CF9DDF52B37 /* Pods-Flash ChatTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -554,6 +706,7 @@
 		};
 		3CB4C83B278D6AE40088BCDD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F0D2753E0C26FFB41CA0DD9 /* Pods-Flash ChatTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -574,6 +727,7 @@
 		};
 		3CB4C83D278D6AE40088BCDD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E42B054D1D89ADCCF679C65D /* Pods-Flash Chat-Flash ChatUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -592,6 +746,7 @@
 		};
 		3CB4C83E278D6AE40088BCDD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB0729ED507022B3106B5111 /* Pods-Flash Chat-Flash ChatUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
