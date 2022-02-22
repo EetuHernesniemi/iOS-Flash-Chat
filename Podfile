@@ -16,5 +16,7 @@ target 'Flash Chat' do
   end
   
   pod 'CLTypingLabel', '~> 0.4.0'
+  pod 'Firebase/Auth'
+  pod 'Firebase/Firestore'
 
 end
