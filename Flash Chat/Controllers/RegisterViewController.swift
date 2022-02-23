@@ -19,16 +19,13 @@ class RegisterViewController: UIViewController {
         if (!email.isEmpty && !password.isEmpty) {
             Auth.auth().createUser(withEmail: email, password: password) { authResult, error in
                 if let e = error { //online authenthication error occured
-                    print(e)
+                    print(e.localizedDescription)
                 } else {
                     //Navigate to the ChatViewController
                     self.performSegue(withIdentifier: "RegisterToChat", sender: self)
                 }
             }
-        } else {
-            print("User input error!")
         }
-        
     }
     
 }
