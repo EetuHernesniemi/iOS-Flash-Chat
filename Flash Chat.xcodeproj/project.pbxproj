@@ -24,6 +24,8 @@
 		3CB4C848278D739A0088BCDD /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB4C847278D739A0088BCDD /* LoginViewController.swift */; };
 		3CB4C84A278D73AA0088BCDD /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB4C849278D73AA0088BCDD /* ChatViewController.swift */; };
 		3CC5817727CCC3080097DB37 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC5817627CCC3080097DB37 /* Message.swift */; };
+		3CC5817A27CF89430097DB37 /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC5817827CF89430097DB37 /* MessageCell.swift */; };
+		3CC5817B27CF89430097DB37 /* MessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3CC5817927CF89430097DB37 /* MessageCell.xib */; };
 		C5F81F551DEFF8996774F8A6 /* Pods_Flash_Chat_Flash_ChatUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B88F1356500A555303CD4978 /* Pods_Flash_Chat_Flash_ChatUITests.framework */; };
 		DA6B1EC4E682D049BEDD80BB /* Pods_Flash_Chat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF94EFF4D52D417332A90DBA /* Pods_Flash_Chat.framework */; };
 		EEC83D66DC1039DC1B265C2D /* Pods_Flash_ChatTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 669124502DC71E7D94DD6256 /* Pods_Flash_ChatTests.framework */; };
@@ -70,6 +72,8 @@
 		3CB4C847278D739A0088BCDD /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		3CB4C849278D73AA0088BCDD /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		3CC5817627CCC3080097DB37 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Message.swift; path = "Flash Chat/Message.swift"; sourceTree = SOURCE_ROOT; };
+		3CC5817827CF89430097DB37 /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
+		3CC5817927CF89430097DB37 /* MessageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MessageCell.xib; sourceTree = "<group>"; };
 		669124502DC71E7D94DD6256 /* Pods_Flash_ChatTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Flash_ChatTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B952817A29BA32C4EE5632A /* Pods-Flash Chat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flash Chat.debug.xcconfig"; path = "Target Support Files/Pods-Flash Chat/Pods-Flash Chat.debug.xcconfig"; sourceTree = "<group>"; };
 		9F0D2753E0C26FFB41CA0DD9 /* Pods-Flash ChatTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flash ChatTests.release.xcconfig"; path = "Target Support Files/Pods-Flash ChatTests/Pods-Flash ChatTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -192,6 +196,8 @@
 			isa = PBXGroup;
 			children = (
 				3CB4C815278D6AE10088BCDD /* Main.storyboard */,
+				3CC5817827CF89430097DB37 /* MessageCell.swift */,
+				3CC5817927CF89430097DB37 /* MessageCell.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -329,6 +335,7 @@
 				3CB4C842278D6B0D0088BCDD /* README.md in Resources */,
 				3CB4C841278D6B0D0088BCDD /* LICENSE in Resources */,
 				3CB4C817278D6AE10088BCDD /* Main.storyboard in Resources */,
+				3CC5817B27CF89430097DB37 /* MessageCell.xib in Resources */,
 				3C84F83427C500A300C170C6 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -465,6 +472,7 @@
 				3CC5817727CCC3080097DB37 /* Message.swift in Sources */,
 				3CB4C84A278D73AA0088BCDD /* ChatViewController.swift in Sources */,
 				3CB4C846278D73880088BCDD /* RegisterViewController.swift in Sources */,
+				3CC5817A27CF89430097DB37 /* MessageCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
