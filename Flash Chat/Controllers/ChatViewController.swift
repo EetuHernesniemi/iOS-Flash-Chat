@@ -32,8 +32,8 @@ class ChatViewController: UIViewController {
     @IBAction func sendPressed(_ sender: UIButton) {
         let currentUser: User? = Auth.auth().currentUser
         if currentUser != nil {
-            let messageBody = messageTextfield.text?.description
-            let messageSender = currentUser?.email?.description
+            let messageBody: Any = messageTextfield.text?.description
+            let messageSender: Any = currentUser?.email?.description
             db.collection(K.FStore.collectionName).addDocument(data: [
                 K.FStore.senderField: messageSender,
                 K.FStore.bodyField: messageBody
