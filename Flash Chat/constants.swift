@@ -6,7 +6,7 @@
 //
 
 struct K {
-    static let appName = "⚡️FlashChat"
+    static let appName = "⚡️Flash Chat"
     static let registerSeque = "RegisterToChat"
     static let loginSeque = "LoginToChat"
     static let cellIdentifier = "ReusableCell"
