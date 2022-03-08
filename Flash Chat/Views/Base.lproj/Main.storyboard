@@ -36,7 +36,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="60" id="ph1-wX-D3a"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" weight="black" pointSize="50"/>
+                                <fontDescription key="fontDescription" type="system" weight="black" pointSize="40"/>
                                 <color key="textColor" name="BrandBlue"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -410,7 +410,7 @@
     </scenes>
     <designables>
         <designable name="y7D-jv-BlJ">
-            <size key="intrinsicContentSize" width="317.5" height="60"/>
+            <size key="intrinsicContentSize" width="256.5" height="48"/>
         </designable>
     </designables>
     <inferredMetricsTieBreakers>
